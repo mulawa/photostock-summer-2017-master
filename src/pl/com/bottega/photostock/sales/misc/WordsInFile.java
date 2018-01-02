@@ -7,8 +7,8 @@ import java.util.Map;
 public class WordsInFile {
 
     public static void main(String[] args) {
-        String input = "/home/maciuch/tmp/test.txt";
-        String output = "/home/maciuch/tmp/map.txt";
+        String input = "/home/marlena/tmp/test.txt";
+        String output = "/home/marlena/tmp/map.txt";
         try (
                 BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(input)));
                 PrintStream out = new PrintStream(new FileOutputStream(output));
